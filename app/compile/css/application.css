@@ -30,6 +30,14 @@ pre {
   font-style: italic;
 }
 
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
 .site-row {
   max-width: 1150px;
   margin: 0 auto;
@@ -44,6 +52,48 @@ pre {
 .logo {
   display: block;
   margin: 0 auto;
+}
+
+.top-nav-wrap {
+  height: 39px;
+}
+
+.top-nav {
+  background: #333333;
+  height: 100%;
+  font-size: 14px;
+  padding-left: 22%;
+}
+
+.top-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav-item {
+  margin: 0 4px 0 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.top-nav-item:last-child {
+  margin-right: 0;
+}
+
+.top-nav-item-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-nav-item-content {
+  display: inline-block;
+  padding: 10px 12px 0;
+  height: 29px;
+}
+
+.top-nav-item-active .top-nav-item-content {
+  background-color: #171717;
 }
 
 .footer {
