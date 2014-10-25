@@ -36,6 +36,16 @@ pre {
   padding: 0 8px;
 }
 
+.header {
+  height: 204px;
+  background: url(../img/bg_header.jpg) center top no-repeat;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
 .footer {
   position: absolute;
   left: 0;
