@@ -4,20 +4,20 @@ html {
 }
 
 body {
-  margin-bottom: 100px;
-}
-
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-  background: #333;
+  margin-bottom: 111px;
 }
 
 body {
-  background-color: #ccc;
+  background-color: #171717;
+  color: #fff;
+  font-family: "wf_SegoeUILight";
+}
+
+@font-face {
+  font-family: "wf_SegoeUILight";
+  src: url("../fonts/segoUIlight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 b,
@@ -30,23 +30,30 @@ pre {
   font-style: italic;
 }
 
-h1 {
-  -webkit-transition: 0.5s all ease;
-  transition: 0.5s all ease;
+.site-row {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 8px;
 }
 
-body {
-  font-family: Arial;
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 78px;
+  width: 100%;
+  background: #333333;
 }
 
-.icon-geo {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAALCAQAAADokgSuAAAAXElEQVQIHQXA0QlAUAAF0JNURlGxh3nMRvLj1xiyg8QrXUFvVRSrHjqXiIhLxyzidIqYecWh0TjEW/twK7jxMYnY7SImBhEREQNsIiI2oPWIeLQAo4gRgMpiUcEPQ3E3TSCe5vAAAAAASUVORK5CYII=");
+.footer p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-.icon-geo {
-  width: 8px;
-  height: 11px;
-  font-size: 0;
+.footer a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=application.css.map */
