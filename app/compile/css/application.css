@@ -225,6 +225,16 @@
   text-transform: uppercase;
 }
 
+.metro-grid-8 .box-birthdays {
+  position: absolute;
+  width: 50%;
+  left: 8px;
+  bottom: 8px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
 .metro-grid-8 .big-square {
   position: absolute;
   left: 0;
