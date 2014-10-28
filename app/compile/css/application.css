@@ -204,6 +204,10 @@
   background-color: #17BB96;
 }
 
+.metro-grid-8 a {
+  text-decoration: none;
+}
+
 .metro-grid-8 .box-content {
   background-position: center center;
   background-repeat: no-repeat;
@@ -212,6 +216,13 @@
 
 .metro-grid-8 .box-content img {
   display: block;
+}
+
+.metro-grid-8 .box-header {
+  font-size: 13px;
+  padding: 6px 0 0 8px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .metro-grid-8 .big-square {
