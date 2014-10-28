@@ -207,6 +207,19 @@
 .metro-grid-8 .box-content {
   background-position: center center;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.metro-grid-8 .box-content img {
+  display: block;
+}
+
+.metro-grid-8 .big-square {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 html {
