@@ -75,6 +75,7 @@ $max-box-height: 2
     background-position: center center
     background-repeat: no-repeat
     position: relative
+    overflow: hidden
     img
       display: block
   .box-header
@@ -91,12 +92,26 @@ $max-box-height: 2
     color: $white
     text-transform: uppercase
     font-size: 12px
+
   .big-square
     position: absolute
     left: 0
     top: 0
     width: 100%
     height: 100%
+  .big-square-info
+    position: absolute
+    width: 101%
+    bottom: 0
+    left: 0
+    color: $white
+    padding: 8px
+  .big-square-header
+    font-size: 18px
+    margin-bottom: 8px
+  .big-square-content
+    font-size: 14px
+    line-height: 16px
 
 .icon-question
   @extend %data-icon-question

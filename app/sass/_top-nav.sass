@@ -23,6 +23,9 @@
   display: inline-block
   &:last-child
     margin-right: 0
+  &:hover
+    .submenu
+      visibility: visible
 
 .top-nav-item-link
   color: $white
@@ -42,3 +45,5 @@
   top: 39px
   background-color: $cod_gray
   padding: 48px 0
+  z-index: 100
+  visibility: hidden
