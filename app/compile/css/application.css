@@ -68,11 +68,17 @@
 .metro-grid-5 div[class*="-h1"] .box-content {
   height: 100%;
   padding-bottom: 0px;
+  -webkit-transform: translatez(0);
+  -ms-transform: translatez(0);
+  transform: translatez(0);
 }
 
 .metro-grid-5 div[class*="-h2"] .box-content {
   height: 200%;
   padding-bottom: 8px;
+  -webkit-transform: translatez(0);
+  -ms-transform: translatez(0);
+  transform: translatez(0);
 }
 
 .metro-grid-5 .offset-1 {
@@ -135,11 +141,17 @@
 .metro-grid-8 div[class*="-h1"] .box-content {
   height: 100%;
   padding-bottom: 0px;
+  -webkit-transform: translatez(0);
+  -ms-transform: translatez(0);
+  transform: translatez(0);
 }
 
 .metro-grid-8 div[class*="-h2"] .box-content {
   height: 200%;
   padding-bottom: 8px;
+  -webkit-transform: translatez(0);
+  -ms-transform: translatez(0);
+  transform: translatez(0);
 }
 
 .metro-grid-8 .offset-1 {
