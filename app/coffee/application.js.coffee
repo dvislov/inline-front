@@ -33,6 +33,8 @@ $(document).ready ->
       $(this).parent('li').toggleClass("top-nav-item-active")
       $(this).next(".submenu").addClass("active")
 
+    return false
+
 # hide menus on body click
 $(document).ready ->
   $('body').click ->

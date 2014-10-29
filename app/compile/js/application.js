@@ -35,13 +35,14 @@
     return $('.top-nav-item-link').click(function() {
       if ($(this).parent('li').hasClass("top-nav-item-active")) {
         $(".submenu").removeClass("active");
-        return $(".top-nav-item-active").removeClass("top-nav-item-active");
+        $(".top-nav-item-active").removeClass("top-nav-item-active");
       } else {
         $(".submenu").removeClass("active");
         $(".top-nav-item-active").removeClass("top-nav-item-active");
         $(this).parent('li').toggleClass("top-nav-item-active");
-        return $(this).next(".submenu").addClass("active");
+        $(this).next(".submenu").addClass("active");
       }
+      return false;
     });
   });
 
