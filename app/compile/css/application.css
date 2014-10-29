@@ -221,7 +221,7 @@
 
 .metro-grid-8 .box-header {
   font-size: 13px;
-  padding: 6px 0 0 8px;
+  padding: 6px 0 6px 8px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -442,6 +442,63 @@ pre {
 .footer a {
   color: #fff;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 960px) {
+  .top-nav-main {
+    padding-left: 0 !important;
+  }
+
+  .metro-grid-8 div[class^="box-w"] {
+    width: 50% !important;
+  }
+
+  .metro-grid-8 div[class*="offset-"] {
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .pull-left,
+  .pull-right {
+    float: none !important;
+  }
+
+  .metro-grid-8 div[class^="box-w"] {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .metro-grid-8 div[class^="box-w"] .box-content {
+    background-image: none;
+  }
+
+  .metro-grid-8 div[class^="box-w"] .box-content img {
+    display: none;
+  }
+
+  .metro-grid-8 div[class^="box-w"] .box-content .box-header {
+    padding: 10px 0 10px 8px;
+  }
+
+  .metro-grid-8 div[class*="offset-"] {
+    margin-left: 0 !important;
+  }
+
+  .metro-grid-8 .big-square {
+    position: relative;
+    height: auto;
+  }
+
+  .metro-grid-8 .big-square-info {
+    position: relative;
+    width: auto;
+  }
+
+  .metro-grid-8 .box-birthdays {
+    position: relative;
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=application.css.map */
