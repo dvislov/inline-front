@@ -394,10 +394,6 @@ pre {
   margin-right: 0;
 }
 
-.top-nav-item:hover .submenu {
-  visibility: visible;
-}
-
 .top-nav-item-link {
   color: #fff;
   text-decoration: none;
@@ -422,6 +418,10 @@ pre {
   padding: 48px 0;
   z-index: 100;
   visibility: hidden;
+}
+
+.submenu.active {
+  visibility: visible;
 }
 
 .footer {
