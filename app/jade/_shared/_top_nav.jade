@@ -1,136 +1,143 @@
 .top-nav-wrap
   nav.top-nav
-    .site-row
-      .pull-right
-        ul
+    div.top-nav-button(data-menu="button")
+      ul
+        li.top-nav-item
+          a.top-nav-item-link(href="#")
+            span.top-nav-item-content Menu
+
+    div.top-nav-content(data-menu="content")
+      .site-row
+        .pull-right
+          ul
+            li.top-nav-item
+              a.top-nav-item-link(href="#")
+                span.top-nav-item-content Иванов Дмитрий
+            li.top-nav-item
+              a.top-nav-item-link(href="#")
+                span.top-nav-item-content Поиск
+
+        ul.top-nav-main
           li.top-nav-item
             a.top-nav-item-link(href="#")
-              span.top-nav-item-content Иванов Дмитрий
+              span.top-nav-item-content Информация
+
+            .submenu
+              .site-row
+
+                .metro-grid-8
+                  .metro-row
+                    .box-w2-h2
+                      a(href="#")
+                        .box-content.box-piction-blue
+                          .big-square
+                            img(src="http://lorempixel.com/300/300", height="100%")
+                            .big-square-info.box-piction-blue
+                              .big-square-header Lorem ipsum dolor sit amet
+                              .big-square-content
+                                Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-purple-heart.icon-question
+                          .box-header Вопрос-ответ
+                    .box-w2-h1
+                      a(href="#")
+                        .box-content.box-scooter.icon-hr
+                          .box-header HR-кабинет
+                    .box-w2-h1
+                      a(href="#")
+                        .box-content.box-raw-sienna
+                          img.pull-right(src="http://lorempixel.com/200/200", height="100%")
+                          .box-header Дни рождения
+                          .box-birthdays
+                            | Константин
+                            | Константинов
+                            br
+                            br
+                            | Завтра
+                            br
+                            | 9 сентября
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-purple-heart.icon-photo
+                          .box-header Фотоконкурсы
+
+                  .metro-row
+                    .box-w2-h1.offset-2
+                      a(href="#")
+                        .box-content.box-tahiti-gold.icon-structure
+                          .box-header Оргструктура
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-mountain-meadow.icon-vacancies
+                          .box-header Вакансии
+                    .box-w2-h1
+                      a(href="#")
+                        .box-content.box-piction-blue.icon-marketing
+                          .box-header Маркетинговая информация
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-scooter.icon-star
+                          .box-header Доска почёта
+
           li.top-nav-item
             a.top-nav-item-link(href="#")
-              span.top-nav-item-content Поиск
+              span.top-nav-item-content Сервисы
 
-      ul.top-nav-main
-        li.top-nav-item
-          a.top-nav-item-link(href="#")
-            span.top-nav-item-content Информация
+            .submenu
+              .site-row
 
-          .submenu
-            .site-row
+                .metro-grid-8
+                  .metro-row
+                    .box-w2-h1
+                      a(href="#")
+                        .box-content.box-piction-blue
+                    .box-w2-h1
+                      a(href="#")
+                        .box-content.box-purple-heart.icon-question
+                          .box-header Вопрос-ответ
+                    .box-w2-h1
+                      a(href="#")
+                        .box-content.box-scooter.icon-hr
+                          .box-header HR-кабинет
+                    .box-w2-h1
+                      a(href="#")
+                        .box-content.box-piction-blue
 
-              .metro-grid-8
-                .metro-row
-                  .box-w2-h2
-                    a(href="#")
-                      .box-content.box-piction-blue
-                        .big-square
-                          img(src="http://lorempixel.com/300/300", height="100%")
-                          .big-square-info.box-piction-blue
-                            .big-square-header Lorem ipsum dolor sit amet
-                            .big-square-content
-                              Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-purple-heart.icon-question
-                        .box-header Вопрос-ответ
-                  .box-w2-h1
-                    a(href="#")
-                      .box-content.box-scooter.icon-hr
-                        .box-header HR-кабинет
-                  .box-w2-h1
-                    a(href="#")
-                      .box-content.box-raw-sienna
-                        img.pull-right(src="http://lorempixel.com/200/200", height="100%")
-                        .box-header Дни рождения
-                        .box-birthdays
-                          | Константин
-                          | Константинов
-                          br
-                          br
-                          | Завтра
-                          br
-                          | 9 сентября
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-purple-heart.icon-photo
-                        .box-header Фотоконкурсы
+                  .metro-row
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-tahiti-gold.icon-structure
+                          .box-header Оргструктура
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-mountain-meadow.icon-vacancies
+                          .box-header Вакансии
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-piction-blue.icon-marketing
+                          .box-header Маркетинговая информация
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-scooter.icon-star
+                          .box-header Доска почёта
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-tahiti-gold.icon-structure
+                          .box-header Оргструктура
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-mountain-meadow.icon-vacancies
+                          .box-header Вакансии
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-piction-blue.icon-marketing
+                          .box-header Маркетинговая информация
+                    .box-w1-h1
+                      a(href="#")
+                        .box-content.box-scooter.icon-star
+                          .box-header Доска почёта
 
-                .metro-row
-                  .box-w2-h1.offset-2
-                    a(href="#")
-                      .box-content.box-tahiti-gold.icon-structure
-                        .box-header Оргструктура
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-mountain-meadow.icon-vacancies
-                        .box-header Вакансии
-                  .box-w2-h1
-                    a(href="#")
-                      .box-content.box-piction-blue.icon-marketing
-                        .box-header Маркетинговая информация
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-scooter.icon-star
-                        .box-header Доска почёта
-
-        li.top-nav-item
-          a.top-nav-item-link(href="#")
-            span.top-nav-item-content Сервисы
-
-          .submenu
-            .site-row
-
-              .metro-grid-8
-                .metro-row
-                  .box-w2-h1
-                    a(href="#")
-                      .box-content.box-piction-blue
-                  .box-w2-h1
-                    a(href="#")
-                      .box-content.box-purple-heart.icon-question
-                        .box-header Вопрос-ответ
-                  .box-w2-h1
-                    a(href="#")
-                      .box-content.box-scooter.icon-hr
-                        .box-header HR-кабинет
-                  .box-w2-h1
-                    a(href="#")
-                      .box-content.box-piction-blue
-
-                .metro-row
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-tahiti-gold.icon-structure
-                        .box-header Оргструктура
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-mountain-meadow.icon-vacancies
-                        .box-header Вакансии
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-piction-blue.icon-marketing
-                        .box-header Маркетинговая информация
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-scooter.icon-star
-                        .box-header Доска почёта
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-tahiti-gold.icon-structure
-                        .box-header Оргструктура
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-mountain-meadow.icon-vacancies
-                        .box-header Вакансии
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-piction-blue.icon-marketing
-                        .box-header Маркетинговая информация
-                  .box-w1-h1
-                    a(href="#")
-                      .box-content.box-scooter.icon-star
-                        .box-header Доска почёта
-
-        li.top-nav-item
-          a.top-nav-item-link(href="#")
-            span.top-nav-item-content Проекты и сообщества
+          li.top-nav-item
+            a.top-nav-item-link(href="#")
+              span.top-nav-item-content Проекты и сообщества

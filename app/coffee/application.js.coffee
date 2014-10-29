@@ -40,3 +40,8 @@ $(document).ready ->
     $(".top-nav-item-active").removeClass("top-nav-item-active")
   $('.top-nav').click ->
     event.stopPropagation()
+
+# hamburger menus
+$(document).ready ->
+  $('[data-menu="button"]').click ->
+    $(this).next('[data-menu="content"]').toggle()

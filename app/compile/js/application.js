@@ -55,4 +55,10 @@
     });
   });
 
+  $(document).ready(function() {
+    return $('[data-menu="button"]').click(function() {
+      return $(this).next('[data-menu="content"]').toggle();
+    });
+  });
+
 }).call(this);
