@@ -31,3 +31,10 @@ $(document).ready ->
       $(this).parent('li').toggleClass("top-nav-item-active")
       $(this).next(".submenu").addClass("active")
 
+# hide menus on body click
+$(document).ready ->
+  $('body').click ->
+    $(".submenu").removeClass("active")
+    $(".top-nav-item-active").removeClass("top-nav-item-active")
+  $('.top-nav').click ->
+    event.stopPropagation()

@@ -41,4 +41,14 @@
     });
   });
 
+  $(document).ready(function() {
+    $('body').click(function() {
+      $(".submenu").removeClass("active");
+      return $(".top-nav-item-active").removeClass("top-nav-item-active");
+    });
+    return $('.top-nav').click(function() {
+      return event.stopPropagation();
+    });
+  });
+
 }).call(this);
