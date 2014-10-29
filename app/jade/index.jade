@@ -7,7 +7,9 @@ html
       include _shared/_header
       include _shared/_top_nav
       .content-wrap
-        .aside
+        div.aside-nav-button(data-menu="button") Left Menu
+        .aside(data-menu="content")
+          | Here is the left menu
         .content
           h1 Новости
 

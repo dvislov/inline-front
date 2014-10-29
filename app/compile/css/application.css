@@ -332,6 +332,12 @@ pre {
   background-color: #e7e7e7;
 }
 
+.aside-nav-button {
+  display: none;
+  background-color: #ccc;
+  padding: 10px;
+}
+
 .content h1 {
   font-size: 36px;
   line-height: 1;
@@ -536,6 +542,24 @@ pre {
   .top-nav-content {
     display: none;
   }
+
+  .aside-nav-button {
+    display: block;
+  }
+
+  .aside {
+    display: none;
+    width: auto;
+    float: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .content {
+    margin-left: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
 
 @media only screen and (min-width: 660px) {
@@ -544,6 +568,14 @@ pre {
   }
 
   .top-nav-content {
+    display: block !important;
+  }
+
+  .aside-nav-button {
+    display: none;
+  }
+
+  .aside {
     display: block !important;
   }
 }
