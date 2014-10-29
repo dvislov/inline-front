@@ -464,6 +464,11 @@ pre {
     float: none !important;
   }
 
+  .metro-grid-8 .metro-row {
+    height: auto;
+    margin-bottom: 0;
+  }
+
   .metro-grid-8 div[class^="box-w"] {
     width: 100% !important;
     height: auto !important;
@@ -498,6 +503,26 @@ pre {
   .metro-grid-8 .box-birthdays {
     position: relative;
     width: auto;
+  }
+
+  .top-nav {
+    height: auto;
+  }
+
+  .top-nav-item {
+    display: block;
+    position: relative;
+  }
+
+  .submenu {
+    position: relative;
+    top: 0;
+    padding: 8px 0;
+    display: none;
+  }
+
+  .submenu.active {
+    display: block;
   }
 }
 

@@ -1,10 +1,12 @@
 $(window).resize ->
+  if (parseInt($('body').width()) > 660)
+    getMetroItemSize(8)
   getMetroItemSize(5)
-  getMetroItemSize(8)
 
 $(document).ready ->
+  if (parseInt($('body').width()) > 660)
+    getMetroItemSize(8)
   getMetroItemSize(5)
-  getMetroItemSize(8)
 
 getMetroItemSize = (num) ->
   boxItemSize = Math.round(parseInt($('.metro-grid-' + num + ' .metro-row').width()) / num - 8)

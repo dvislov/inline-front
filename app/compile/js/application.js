@@ -2,13 +2,17 @@
   var getMetroItemSize;
 
   $(window).resize(function() {
-    getMetroItemSize(5);
-    return getMetroItemSize(8);
+    if (parseInt($('body').width()) > 660) {
+      getMetroItemSize(8);
+    }
+    return getMetroItemSize(5);
   });
 
   $(document).ready(function() {
-    getMetroItemSize(5);
-    return getMetroItemSize(8);
+    if (parseInt($('body').width()) > 660) {
+      getMetroItemSize(8);
+    }
+    return getMetroItemSize(5);
   });
 
   getMetroItemSize = function(num) {
