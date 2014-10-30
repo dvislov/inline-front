@@ -10,6 +10,7 @@
     position: fixed
     left: 0
     top: 0
+    z-index: 200
   ul
     list-style-type: none
     margin: 0
@@ -38,12 +39,15 @@
 .submenu
   width: 100%
   position: absolute
+  z-index: 200
   left: 0
   top: 39px
   background-color: $cod_gray
   padding: 48px 0
   z-index: 100
   visibility: hidden
+  -webkit-backface-visibility: hidden
+  -webkit-transform: translateZ(0)
   &.active
     visibility: visible
 

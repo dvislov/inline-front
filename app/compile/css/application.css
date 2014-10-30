@@ -68,17 +68,11 @@
 .metro-grid-5 div[class*="-h1"] .box-content {
   height: 100%;
   padding-bottom: 0px;
-  -webkit-transform: translatez(0);
-  -ms-transform: translatez(0);
-  transform: translatez(0);
 }
 
 .metro-grid-5 div[class*="-h2"] .box-content {
   height: 200%;
   padding-bottom: 8px;
-  -webkit-transform: translatez(0);
-  -ms-transform: translatez(0);
-  transform: translatez(0);
 }
 
 .metro-grid-5 .offset-1 {
@@ -141,17 +135,11 @@
 .metro-grid-8 div[class*="-h1"] .box-content {
   height: 100%;
   padding-bottom: 0px;
-  -webkit-transform: translatez(0);
-  -ms-transform: translatez(0);
-  transform: translatez(0);
 }
 
 .metro-grid-8 div[class*="-h2"] .box-content {
   height: 200%;
   padding-bottom: 8px;
-  -webkit-transform: translatez(0);
-  -ms-transform: translatez(0);
-  transform: translatez(0);
 }
 
 .metro-grid-8 .offset-1 {
@@ -390,6 +378,7 @@ pre {
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 200;
 }
 
 .top-nav ul {
@@ -430,12 +419,15 @@ pre {
 .submenu {
   width: 100%;
   position: absolute;
+  z-index: 200;
   left: 0;
   top: 39px;
   background-color: #171717;
   padding: 48px 0;
   z-index: 100;
   visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
 }
 
 .submenu.active {
